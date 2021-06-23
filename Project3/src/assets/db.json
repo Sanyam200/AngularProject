@@ -1,0 +1,18 @@
+{
+  "employeeInfo" : [
+      {
+        "id":1,
+        "eid" : "101",
+        "employeeName": "abc",
+        "employeeHobby": "coding",
+        "employeeDesgination" : "dev"
+      },
+      {
+        "id": 2,
+        "eid" : "102",
+        "employeeName": "dbc",
+        "employeeHobby": "code",
+        "employeeDesgination" : "dev"
+      }
+  ]   
+}

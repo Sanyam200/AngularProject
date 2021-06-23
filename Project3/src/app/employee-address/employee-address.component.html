@@ -1,0 +1,21 @@
+<h1>
+
+    User Data</h1>
+    <button class="btn btn-primary" (click)='getEmployeeInfo()'>View Info</button>
+<hr>
+<table class="table">
+    <thead>
+        <th>#</th>
+        <th>EID</th>
+        <th>Employee Name</th>
+        <th>Employee Hobbby</th>
+        <th>Employee Designation</th>
+    </thead>
+    <tr *ngFor="let item of empInfo">
+        <td>{{item.id}}</td>
+        <td>{{item.eid}}</td>
+        <td>{{item.employeeName}}</td>
+        
+        <td>{{item.employeeDesignation}}</td>
+    </tr>
+</table>
