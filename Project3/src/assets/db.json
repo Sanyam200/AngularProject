@@ -1,18 +1,38 @@
 {
-  "employeeInfo" : [
-      {
-        "id":1,
-        "eid" : "101",
-        "employeeName": "abc",
-        "employeeHobby": "coding",
-        "employeeDesgination" : "dev"
-      },
-      {
-        "id": 2,
-        "eid" : "102",
-        "employeeName": "dbc",
-        "employeeHobby": "code",
-        "employeeDesgination" : "dev"
-      }
-  ]   
+  "employeeInfo": [
+    {
+      "id": 1,
+      "eid": "101",
+      "employeeName": "abc",
+      "employeeHobby": "coding",
+      "employeeDesgination": "deva"
+    },
+    {
+      "id": 2,
+      "eid": "102",
+      "employeeName": "dbc",
+      "employeeHobby": "code",
+      "employeeDesgination": "dev"
+    }
+  ],
+  "employeeReg": [
+    {
+      "id": 1,
+      "eid": "101",
+      "employeeName": "test",
+      "username": "hello"
+    },
+    {
+      "id": 2,
+      "eid": "102",
+      "employeeName": "testsss",
+      "username": "hellossss"
+    },
+    {
+      "id": 3,
+      "eid": "103",
+      "employeeName": "Vritant",
+      "username": "Tiple"
+    }
+  ]
 }

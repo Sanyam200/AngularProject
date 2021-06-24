@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { EmpReg } from '../model/empReg';
+import { CommonServiceService } from '../shared/common-service.service';
 
 @Component({
   selector: 'app-employee-contact',
@@ -7,9 +9,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class EmployeeContactComponent implements OnInit {
 
-  constructor() { }
+  regInfo : EmpReg[ ] = []
+  constructor(private commonServicce : CommonServiceService) { }
 
   ngOnInit(): void {
   }
 
+  getEmployeeReg() {
+    this.commonServicce.getEmployeeReg().subscribe((result : EmpReg[])=>{
+      this.regInfo = result;
+    })
+  }
 }
